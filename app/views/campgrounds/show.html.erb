@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="col-md-8">
+		<div class="thumbnail">
+			<%= image_tag(@campground.url, onerror: 'imgerror(this)') %>
+			<div class="caption">
+				<h4><%= @campground.name %></h4>
+				<p><%= @campground.description %></p>
+				<%= link_to 'edit', edit_campground_path(@campground), class: 'btn btn-primary btn-xs' %>
+				<%= link_to 'delete', campground_path(@campground), method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-danger btn-xs' %>
+			</div>
+		</div>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br>
+</div>

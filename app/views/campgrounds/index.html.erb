@@ -1,0 +1,15 @@
+<div class="container">
+	<h1 class="text-center">Listing all campgrounds</h1>
+	<div class="row" style="display:flex; flex-wrap: wrap;">
+		<% @campgrounds.each do |campground| %>
+			<div class="col-md-3 col-sm-6">
+				<div class="thumbnail">
+					<%= image_tag(campground.url, onerror: 'imgerror(this)') %>
+					<div class="caption">
+						<%= link_to campground.name, campground_path(campground) %>
+					</div>
+				</div>
+			</div>
+		<% end %>
+	</div>
+</div>

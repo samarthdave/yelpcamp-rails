@@ -1,0 +1,47 @@
+.container h1 {
+	color: #fff;
+}
+.well-transparent {
+	background: rgba(0,0,0,0.5);
+	border: 0;
+	color: #fff;
+}
+.form-group .form-control {
+	background: transparent;
+	color: #fff;
+	border: 0;
+	&:focus {
+		-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,.075),0 0 8px rgba(255,255,255,.6);
+		box-shadow: inset 0 1px 1px rgba(255,255,255,.075),0 0 8px rgba(255,255,255,.6);
+	}
+}
+.thumbnail {
+	padding: 0;
+	border: 0;
+	background: rgba(0,0,0,0.5);
+	
+}
+.thumbnail img {
+	width: 100%;
+}
+.thumbnail .caption {
+	padding: 9px;
+	color: #fff;
+	background: transparent;
+}
+#error_explaination {
+	h2 {
+		font-size: 20px;
+	}
+}
+#comments {
+	color: #fff;
+	padding: 13px;
+	padding-bottom: 0;
+	height: 100%;
+	background: #000;
+	background: rgba(0,0,0,0.5);
+}
+#comments span {
+	color: #d9d9d9;
+}

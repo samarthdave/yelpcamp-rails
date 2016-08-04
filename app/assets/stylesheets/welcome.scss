@@ -1,0 +1,36 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background: #fff url(https://hd.unsplash.com/photo-1455763916899-e8b50eca9967)
+	right bottom no-repeat fixed;
+	min-height: 100%;
+	background-size:cover;
+}
+.welcome-index .jumbotron {
+	margin-top: 100px;
+	color: #fff;
+	background: transparent;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+	&:hover {
+		color: #b9b9b9;
+	}
+	&:focus {
+		color: #b9b9b9;
+	}
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	&:hover {
+		color: #b9b9b9;
+	}
+	&:focus {
+		color: #b9b9b9;
+	}
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border: 0;
+}
