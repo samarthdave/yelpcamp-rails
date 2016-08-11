@@ -1,0 +1,6 @@
+<%= form_for([@campground, @campground.comments.build]) do |f| %>
+	<div class="form-group">
+		<%= f.label :data, class: 'sr-only' %>
+		<%= f.text_field :data, rows: 2, class: 'form-control', placeholder: 'Add a comment', maxlength: 30 %>
+	</div>
+<% end %>

@@ -2,5 +2,6 @@
 	<div class="jumbotron">
 		<h1>Welcome to YelpCamp!</h1>
 		<p>A place to share your favorite camping trips.</p>
+		<%= link_to "Sign up now", new_user_registration_path, class: 'btn btn-success' if !user_signed_in? %>
 	</div>
 </div>

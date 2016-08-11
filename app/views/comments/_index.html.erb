@@ -1,0 +1,3 @@
+<% @comments.each do |comment| %>
+	<p><%= comment.data %> <span class="pull-right"><small><i><%= comment.user.username %></i></small></span></p>
+<% end %>

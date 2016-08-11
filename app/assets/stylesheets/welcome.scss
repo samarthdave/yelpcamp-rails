@@ -7,10 +7,15 @@ body {
 	min-height: 100%;
 	background-size:cover;
 }
+.jumbotron {
+	border: 2px solid #fff;
+	color: #fff;
+	background: transparent;
+}
 .welcome-index .jumbotron {
 	margin-top: 100px;
 	color: #fff;
-	background: transparent;
+	background: rgba(0,0,0,0.5);
 }
 .navbar-default .navbar-brand {
 	color: #fff;
